@@ -1,8 +1,12 @@
 /*Universal CSS*/
 body {
-  background-color: antiquewhite;
+  background-color: #fafafa;
   margin: 0;
-  padding: 0;
+  
+}
+
+main {
+  font-family: "Roboto", sans-serif;
 }
 
 #nav-container{
@@ -16,7 +20,7 @@ body {
   font-weight: 500;
   overflow: hidden;
   font-size: 20px;
-  background-color: rgb(57, 30, 78);
+  background-color: #484b6a;
 }
 
 #nav-bar ul li{
@@ -35,22 +39,21 @@ body {
 #nav-bar ul li a{
   display: block;
   padding: 20px 50px;
-  color: #fff;
+  color: #fafafa;
   text-decoration: none;
   transition: background-color .5s;
 }
 
 #nav-container ul li a:hover {
-  background-color: rgb(45, 22, 63);
+  background-color: #9394a5;
   transition: ease-out .5s;
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 30px;
+  padding-left: 1vw;
+  padding-right: 1vw;
   overflow: hidden;
-  background-color: aqua;
+  background-color: #fafafa;
 }
 
 h1 {
@@ -58,6 +61,81 @@ h1 {
   font-size: 50px;
   padding: 0;
   margin-top: 20px;
+  margin-bottom: 0;
+  color: #484b6a;
 }
 
-/*Resume*/
+/*Resume (Fixed-width)*/
+
+#res-sum {
+  background-color: #e4e5f1;
+  position: relative;
+  margin-top: 1%;
+  padding: 10px;
+}
+
+#res-sum p{
+  margin: 0;
+}
+
+#resume h3 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 0;
+}
+
+#res-work-skills {
+  background-color: #606ad1;
+  position: relative;
+}
+
+#res-skills, #res-work{
+  width: 100%;
+  margin-top: 20px;
+}
+
+#res-skills {
+  float: right;
+  width: 600px;
+  background-color: #e4e5f1;
+  padding: 10px;
+  padding-bottom: 210px;
+  
+}
+#res-work {
+  float: left;
+  background-color: #e4e5f1;
+  width: 1200px;
+  padding: 10px;
+}
+
+#res-project {
+  margin-top: 440px;
+  background-color: #e4e5f1;
+  float: center;
+  padding: 10px;
+  justify-items: center;
+}
+
+#res-project ul {
+  padding: 0;
+}
+
+#res-footer img{
+  width: 70px;
+  height: auto;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#res-footer {
+  text-align: center;
+  width: 100%;
+  background-color: #484b6a;
+  margin-top: 20px;
+}
+
+#res-footer img:hover {
+  background-color: #9394a5;
+  transition: ease-out .5s;
+}
