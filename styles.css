@@ -46,7 +46,18 @@ body {
 }
 
 .container {
-  width: 960px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
   overflow: hidden;
+  background-color: aqua;
 }
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/*Resume*/
