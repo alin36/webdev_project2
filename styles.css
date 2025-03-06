@@ -2,7 +2,6 @@
 body {
   background-color: #fafafa;
   margin: 0;
-  
 }
 
 main {
@@ -21,6 +20,10 @@ main {
   overflow: hidden;
   font-size: 20px;
   background-color: #484b6a;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  
 }
 
 #nav-bar ul li{
@@ -120,11 +123,11 @@ h1 {
 }
 
 #res-footer img{
-  width: 70px;
+  width: 50px;
   height: auto;
-  padding: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 #res-footer {
