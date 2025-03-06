@@ -150,7 +150,6 @@ h1 {
 
 #cd-list ol li{
   background-color: #e4e5f1;
-  
   padding: 10px;
   margin: 10px;
 
@@ -161,5 +160,10 @@ h1 {
 }
 
 #achievements {
+  display: inline-block;
+  width: 70%;
+}
+
+#music-vid {
   display: inline-block;
 }
