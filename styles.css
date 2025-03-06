@@ -141,3 +141,25 @@ h1 {
   background-color: #9394a5;
   transition: ease-out .5s;
 }
+
+/* CD Page (Fluid-page)*/
+
+#cd-list {
+  display: inline-block;
+}
+
+#cd-list ol li{
+  background-color: #e4e5f1;
+  
+  padding: 10px;
+  margin: 10px;
+
+}
+
+#cd-list ol {
+  padding: 0;
+}
+
+#achievements {
+  display: inline-block;
+}
