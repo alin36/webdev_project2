@@ -146,38 +146,55 @@ h1 {
 
 #cd-list {
   display: inline-block;
-  background-color: #606ad1;
   width: 50vw;
 }
 
 #cd-list ol li{
   background-color: #e4e5f1;
-  padding: 10px;
+  padding: 15px;
   margin: 10px;
-  width: 10vw;
+  width: 40vw;
 }
 
 #cd-list ol {
   padding: 0;
+  padding-left: 10px;
 }
 
-#achievements {
+#cd-side {
   display: inline-block;
-  background-color: #606ad1;
   width: 100vw;
   max-width: 50vw;
   height: 100vh;
   padding: 0;
   margin: 0;
+  padding-top: 10%;
 }
 
 #achievements img{
   display: inline-block;
-  background-color: #606ad1;
   background-repeat: no-repeat;
+  min-width: 40%;
+  max-width: 100%;
+  height: auto;
 }
 
 #music {
-  background-color: aquamarine;
   display: flex;
+}
+
+#videoWrapper{
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+#videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 640px;
+  max-height: 360px;
 }
