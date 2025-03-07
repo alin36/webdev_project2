@@ -26,7 +26,7 @@ main {
   
 }
 
-#nav-bar ul li{
+#nav-bar ul li {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -34,12 +34,12 @@ main {
   vertical-align: top;
 }
 
-#nav-bar ul{
+#nav-bar ul {
   margin: 0;
   padding: 0;
 }
 
-#nav-bar ul li a{
+#nav-bar ul li a {
   display: block;
   padding: 20px 50px;
   color: #fafafa;
@@ -104,6 +104,7 @@ h1 {
   padding-bottom: 210px;
   
 }
+
 #res-work {
   float: left;
   background-color: #e4e5f1;
@@ -198,25 +199,94 @@ h1 {
   max-height: 360px;
 }
 
-/* Cake Recipe*/
+/* Cake Recipe (fixed)*/
 
-#banner-wrapper {
-  background-color: #606ad1;
-  display: flex;
-  width: 100%;
+#cake h3{
+  margin-top: 0;
 }
 
-#banner-wrapper p {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  min-height: 10%;
-  max-width: 70%;
+#banner {
+  width: 52%;
+  padding: 0;
+  float: left;
 }
 
-#banner-wrapper img {
+#banner-text {
   width: 100%;
-  height: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #e4e5f1;
+}
+
+#cake-slice img {
+  width: 100%;
   max-width: 400px;
-  max-height: 400px;
+  height: auto;
+}
+
+#cake-slice {
+  background-color: #e4e5f1;
+  padding-top: 0;
+  margin-top: 0;
+  padding: 10px;
+}
+
+#ing-section {
+  background-color: #e4e5f1;
+  padding: 10px;
+  margin-top: 10px;
+  padding-bottom: 45px;
+  float: right;
+  width: 855PX;
+}
+
+#ing-section img {
+  float: left;
+}
+
+#ing-section ul{
+  float: right;
+}
+
+#ing-section li{
+  padding: 5px;
+}
+
+#instr-section {
+  background-color: #e4e5f1;
+  padding: 10px;
+  margin-top: 10px;
+  float: left;
+}
+
+#nutri-section {
+  background-color: #e4e5f1;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  float: right;
+}
+
+#ing-nutri {
+  width: 100%;
+  display: flex;
+}
+
+#cake-footer {
+  background-color: #e4e5f1;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  padding: 10px;
+  margin: 10px 1vw 10px 1vw;
+}
+
+#cake-footer a {
+  color: #484b6a;
+  text-decoration: none;
+  transition: color .5s;
+}
+
+#cake-footer a:hover {
+  color: #606ad1;
+  transition: ease-out .5s;
 }
