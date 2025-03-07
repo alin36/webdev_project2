@@ -151,14 +151,14 @@ h1 {
   width: 50vw;
 }
 
-#cd-list ol li{
+#cd-list-content ol li{
   background-color: #e4e5f1;
   padding: 15px;
   margin: 10px;
   width: 40vw;
 }
 
-#cd-list ol {
+#cd-list-content ol {
   padding: 0;
   padding-left: 10px;
 }
