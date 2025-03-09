@@ -73,11 +73,9 @@ h1 {
 
 #res-sum {
   background-color: #e4e5f1;
-  position: absolute;
+  position: relative;
   margin-top: 1%;
-  top: 140px;
   padding: 10px;
-  width: 100%;
 }
 
 #res-sum p {
@@ -90,33 +88,32 @@ h1 {
 }
 
 #res-work-skills {
-  position: absolute;
-  top: 280px;
-  width: 100%;
+  background-color: #606ad1;
+  position: relative;
 }
 
 #res-skills, #res-work {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  gap: 1rem;
-} 
+  width: 100%;
+  margin-top: 20px;
+}
 
 #res-skills {
+  float: right;
+  width: 600px;
   background-color: #e4e5f1;
   padding: 10px;
-  float: right;
-  width: 30%;
+  padding-bottom: 210px;
 }
 
 #res-work {
+  float: left;
   background-color: #e4e5f1;
+  width: 1200px;
   padding: 10px;
-  width: 60%;
 }
 
 #res-project {
-  position: absolute;
+  margin-top: 440px;
   background-color: #e4e5f1;
   padding: 10px;
   justify-items: center;
@@ -136,8 +133,6 @@ h1 {
 
 #res-footer {
   text-align: center;
-  bottom: 0;
-  position: fixed;
   width: 100%;
   background-color: #484b6a;
   margin-top: 20px;
