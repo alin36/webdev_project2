@@ -1,6 +1,5 @@
-# webdev_project3
-ITMD-361 Project 3 (JS)
+# webdev_project2
+ITMD-361 Project 2 (CSS)
 Resume Page
 Minecraft CDs Page
 Cake Recipe Page
-Google Maps API Page
